@@ -10,8 +10,14 @@ var index = require('./routes/index');
 //var users = require('./routes/users');
 
 var app = express();
+
+//load dotenv variables for dev/test
 dotenv.load();
 
+//passport config
+var passport = require('passport');
+//setting up session store for node, need to look into this more
+var expressSession = require('express-session');
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
