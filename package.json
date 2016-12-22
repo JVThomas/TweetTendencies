@@ -4,7 +4,8 @@
   "description": "Side project that creates vocab profiles of twitter accounts",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "npm test",
+		"migrate": "node_modules/.bin/knex migrate:latest"
   },
   "repository": {
     "type": "git",
