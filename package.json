@@ -1,0 +1,41 @@
+{
+  "name": "tweettendencies",
+  "version": "0.1.0",
+  "description": "Side project that creates vocab profiles of twitter accounts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JVThomas/TweetTendencies.git"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "tdf-if",
+    "twitter"
+  ],
+  "author": "Justin Thomas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JVThomas/TweetTendencies/issues"
+  },
+  "homepage": "https://github.com/JVThomas/TweetTendencies#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bookshelf": "^0.10.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.14.2",
+    "knex": "^0.12.6",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-twitter": "^1.0.4",
+    "pg": "^6.1.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  }
+}
